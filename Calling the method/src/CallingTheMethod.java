@@ -18,7 +18,5 @@ public class CallingTheMethod {
             System.out.println("Temperature is positive");
         else
             System.out.println("Temperature is negative or zero");
-
-        String testUpdate = "testUpdate";
     }
 }
