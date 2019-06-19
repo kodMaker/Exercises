@@ -1,8 +1,14 @@
+import test.*;
+
 public class CallingTheMethod {
 
     public static void main(String[] args) {
         ifTemperatureIsPositive(23);
 
+        test test1 = new test();
+        test1.setAbc(53);
+        System.out.println(test1.getAbc());
+        test.method();
     }
 
     public static boolean temperature(int someTemperature) {
