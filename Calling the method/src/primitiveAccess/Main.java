@@ -7,8 +7,8 @@ public class Main {
         checkNames();
     }
 
-    private String[] nameBatabase = {"Radek", "Agata", "Jacek", "Piotr", "Robert"};
-    private String[] passwordBatabase = {"a1", "a2", "a3", "a4", "a5"};
+    private String[] nameBatabase = {"Radek", "Agata", "Jacek", "Piotr", "Emil", "Grzegorz"};
+    private String[] passwordBatabase = {"a1", "a2", "a3", "a4", "a5", "a6"};
 
     public String[] getNameBatabase() {
         return nameBatabase;
